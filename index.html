@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+<head>
+<style>
+  /***** Global *****/
+  html {
+    font-size: 16px;
+    --lead: 1.5;
+    --vgrid: calc(1rem * var(--lead));
+    --hgrid: calc(var(--vgrid) * .5);
+
+    font-family: sans;
+    margin: 0 var(--hgrid) var(--vgrid);
+    box-sizing: border-box;
+  }
+  *, *:before, *:after { box-sizing: inherit }
+  * { padding: 0; margin: var(--vgrid) 0 0 }
+
+  /***** HamNoSys figure *****/
+  @font-face {
+    font-family: HamNoSys;
+    src: url(weijyi_hamnosys_unicode.woff);
+  }
+  figure.HamNoSys {
+    font-family: HamNoSys, sans;
+    --font-size-hamnosys: 24px;
+    --font-size-text: 12px;
+    --image-size: 58px; /* both height & width */
+  }
+  figure.HamNoSys table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+    border: 0;
+    font-size: var(--font-size-hamnosys);
+  }
+  figure.HamNoSys th,
+  figure.HamNoSys small {
+    font-size: var(--font-size-text);
+  }
+  figure.HamNoSys td,
+  figure.HamNoSys th {
+    border: 1px solid black;
+    width: var(--image-width);
+    box-sizing: content-box;
+    width: var(--image-size);
+    text-align: center;
+    font-weight: inherit;
+  }
+  figure.HamNoSys img {
+    display: block;
+    margin: auto;
+    width: var(--image-size);
+    height: var(--image-size);
+  }
+  figure.HamNoSys .odd { background: #aff; }
+  figure.HamNoSys .even { background: #eee; }
+</style>
+</head>
+<body>
+
+<p>The following information was extracted
+from <a href="hamnosys_handshapes.pdf">a description of HamNoSys handshapes</a>
+(PDF) which I found
+here <a href="https://www.sign-lang.uni-hamburg.de/dgs-korpus/files/inhalt_pdf/HamNoSys_Handshapes.pdf">here</a>.
+
+<p>/zrajm September 29, 2020
+
+<figure class=HamNoSys>
+  <figcaption>
+    <b>HamNoSys 4 Handshapes Chart.</b>
+
+    <p>Please note that this chart aims at demonstrating how HamNoSys handshape
+      notations are constructed, by no means is this chart an exhaustive list of
+      HamNoSys handshape notations.
+
+    <p>Thomas Hanke, 2010-06-10, Drawings by Heiko Zienert, Olga Jeziorski, Andreas
+      Hanß.
+  </figcaption>
+  <table>
+    <colgroup>
+      <col>
+      <col span=4 class=odd>
+      <col span=4 class=even>
+      <col span=5 class=odd>
+      <col span=4 class=even>
+      <col span=5 class=odd>
+    </colgroup>
+    <tr>
+      <th><b>Selection</b>
+      <th colspan=4>Selected Fingers Extended
+      <th colspan=4>Selected Fingers Flattened
+      <th colspan=5>Selected Fingers Bent
+      <th colspan=4>Selected Fingers Hooked
+      <th colspan=5>Derivation Examples
+    <tr>
+      <th>Fist
+      <!--Selected Fingers Extended-->
+      <td><img src=pic/000.png>
+      <td><img src=pic/001.png>
+      <td><img src=pic/002.png>
+      <td><img src=pic/003.png>
+      <!--Selected Fingers Flattened-->
+      <td colspan=4>
+      <!--Selected Fingers Bent-->
+      <td colspan=2>
+      <td><img src=pic/004.png>
+      <td>
+      <td><img src=pic/005.png>
+      <!--Selected Fingers Hooked-->
+      <td colspan=2>
+      <td><img src=pic/006.png>
+      <td>
+      <!--Derivation Examples-->
+      <td><img src=pic/007.png>
+      <td><img src=pic/008.png>
+      <td><img src=pic/009.png>
+      <td><img src=pic/010.png>
+      <td><img src=pic/011.png>
+    <tr>
+      <th>One Finger
+      <!--Selected Fingers Extended-->
+      <td><img src=pic/012.png>
+      <td><img src=pic/013.png>
+      <td><img src=pic/014.png>
+      <td><img src=pic/015.png>
+      <!--Selected Fingers Flattened-->
+      <td><img src=pic/016.png>
+      <td><img src=pic/017.png>
+      <td><img src=pic/018.png>
+      <td><small>cf.</small> 
+      <!--Selected Fingers Bent-->
+      <td><img src=pic/019.png>
+      <td><img src=pic/020.png>
+      <td><img src=pic/021.png>
+      <td><img src=pic/022.png>
+      <td><small>cf.</small> 
+      <!--Selected Fingers Hooked-->
+      <td><img src=pic/023.png>
+      <td><img src=pic/024.png>
+      <td><img src=pic/025.png>
+      <td><img src=pic/026.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/027.png>
+      <td><img src=pic/028.png>
+      <td><img src=pic/029.png>
+      <td><img src=pic/030.png>
+      <td><img src=pic/031.png>
+    <tr>
+      <th>Two Fingers (non­spread), others in fist position
+      <!--Selected Fingers Extended-->
+      <td><img src=pic/032.png>
+      <td><img src=pic/033.png>
+      <td><img src=pic/034.png>
+      <td><img src=pic/035.png>
+      <!--Selected Fingers Flattened-->
+      <td><img src=pic/036.png>
+      <td><img src=pic/037.png>
+      <td><img src=pic/038.png>
+      <td><small>cf.</small> 
+      <!--Selected Fingers Bent-->
+      <td><img src=pic/039.png>
+      <td><img src=pic/040.png>
+      <td><img src=pic/041.png>
+      <td><img src=pic/042.png>
+      <td><small>cf.</small> 
+      <!--Selected Fingers Hooked-->
+      <td><img src=pic/043.png>
+      <td><img src=pic/044.png>
+      <td><img src=pic/045.png>
+      <td><img src=pic/046.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/047.png>
+      <td><img src=pic/048.png>
+    <tr>
+      <th>Two Fingers (spread), others in fist position
+      <!--Selected Fingers Extended-->
+      <td><img src=pic/049.png>
+      <td><img src=pic/050.png>
+      <td><img src=pic/051.png>
+      <td><img src=pic/052.png>
+      <!--Selected Fingers Flattened-->
+      <td><img src=pic/053.png>
+      <td><img src=pic/054.png>
+      <td><img src=pic/055.png>
+      <td><img src=pic/056.png>
+      <!--Selected Fingers Bent-->
+      <td><img src=pic/057.png>
+      <td><img src=pic/058.png>
+      <td><img src=pic/059.png>
+      <td><img src=pic/060.png>
+      <td><img src=pic/061.png>
+      <!--Selected Fingers Hooked-->
+      <td><img src=pic/062.png>
+      <td><img src=pic/063.png>
+      <td><img src=pic/064.png>
+      <td><img src=pic/065.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/066.png>
+      <td><img src=pic/067.png>
+    <tr>
+      <th>Flathand (Four Fingers non­spread)
+      <!--Selected Fingers Extended-->
+      <td><img src=pic/068.png>
+      <td><img src=pic/069.png>
+      <td><img src=pic/070.png>
+      <td><img src=pic/071.png>
+      <!--Selected Fingers Flattened-->
+      <td><img src=pic/072.png>
+      <td><img src=pic/073.png>
+      <td><img src=pic/074.png>
+      <td><small>cf.</small> 
+      <!--Selected Fingers Bent-->
+      <td><img src=pic/075.png>
+      <td><img src=pic/076.png>
+      <td><img src=pic/077.png>
+      <td><img src=pic/078.png>
+      <td><small>cf.</small> 
+      <!--Selected Fingers Hooked-->
+      <td><img src=pic/079.png>
+      <td><img src=pic/080.png>
+      <td><img src=pic/081.png>
+      <td><img src=pic/082.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/083.png>
+    <tr>
+      <th>Four Fingers (spread)
+      <!--Selected Fingers Extended-->
+      <td><img src=pic/084.png>
+      <td><img src=pic/085.png>
+      <td><img src=pic/086.png>
+      <td><img src=pic/087.png>
+      <!--Selected Fingers Flattened-->
+      <td><img src=pic/088.png>
+      <td><img src=pic/089.png>
+      <td><img src=pic/090.png>
+      <td><img src=pic/091.png>
+      <!--Selected Fingers Bent-->
+      <td><img src=pic/092.png>
+      <td><img src=pic/093.png>
+      <td><img src=pic/094.png>
+      <td><img src=pic/095.png>
+      <td><img src=pic/096.png>
+      <!--Selected Fingers Hooked-->
+      <td><img src=pic/097.png>
+      <td><img src=pic/098.png>
+      <td><img src=pic/099.png>
+      <td><img src=pic/100.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/101.png>
+      <td><img src=pic/102.png>
+      <td><img src=pic/103.png>
+      <td><img src=pic/104.png>
+      <td><img src=pic/105.png>
+  </table>
+  <table border=1>
+    <colgroup>
+      <col>
+      <col class=odd span=4>
+      <col class=even span=4>
+      <col class=odd>
+      <col class=even>
+      <col class=odd>
+      <col class=even>
+      <col class=odd span=6>
+    </colgroup>
+    <tr>
+      <th><b>Thumb Oppo­sition</b>
+      <th colspan=4>Fingertip-Thumbtip Oppo­sition w/ fingers rounded
+      <th colspan=4>Fingertip-Thumbtip Oppo­sition w/ fingers flattened
+      <th>Fingertip-Thumbtip Oppo­sition w/ fingers straight
+      <th>Fingertip-Thumbtip Oppo­sition w/ hitch­hiker's fingers
+      <th>Fingertip-Thumb's Inter­phalan­geal Joint Oppo­sition
+      <th>Fingertip-Thumb's Meta­carpo­phalan­geal Joint Oppo­sition
+      <th colspan=3>Derivation Examples
+    <tr>
+      <th>One Finger, others in fist position
+      <!--Fingertip-Thumbtip Opposition w/ fingers rounded-->
+      <td><img src=pic/106.png>
+      <td><img src=pic/107.png>
+      <td><img src=pic/108.png>
+      <td><img src=pic/109.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers flattened-->
+      <td><img src=pic/110.png>
+      <td><img src=pic/111.png>
+      <td><img src=pic/112.png>
+      <td><img src=pic/113.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers straight-->
+      <td><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ hitch­hiker's fingers-->
+      <td><img src=pic/114.png>
+      <!--Fingertip-Thumb's Interphalangeal Joint Opposition-->
+      <td><img src=pic/115.png>
+      <!--Fingertip-Thumb's Metacarpophalangeal Joint Opposition-->
+      <td><img src=pic/116.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/117.png><small>SYS</small>
+      <td><img src=pic/118.png>
+      <td><img src=pic/119.png>
+    <tr>
+      <th>Two Fingers (non­spread), others in fist position
+      <!--Fingertip-Thumbtip Opposition w/ fingers rounded-->
+      <td rowspan=2><img src=pic/120.png>
+      <td><img src=pic/121.png>
+      <td><img src=pic/122.png>
+      <td><img src=pic/123.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers flattened-->
+      <td rowspan=2><img src=pic/124.png>
+      <td><img src=pic/125.png>
+      <td><img src=pic/126.png>
+      <td><img src=pic/127.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers straight-->
+      <td><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ hitch­hiker's fingers-->
+      <td><img src=pic/128.png>
+      <!--Fingertip-Thumb's Interphalangeal Joint Opposition-->
+      <td><img src=pic/129.png>
+      <!--Fingertip-Thumb's Metacarpophalangeal Joint Opposition-->
+      <td><img src=pic/130.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/131.png>
+    <tr>
+      <th>Two Fingers (spread), others in fist position
+      <!--Fingertip-Thumbtip Opposition w/ fingers rounded-->
+      <!--rowspan=2 from above-->
+      <td colspan=3><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ fingers flattened-->
+      <!--rowspan=2 from above-->
+      <td colspan=3><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ fingers straight-->
+      <td><small>cf.</small> 
+    <tr>
+      <th>Four Fingers (non­spread)
+      <!--Fingertip-Thumbtip Opposition w/ fingers rounded-->
+      <td rowspan=2><img src=pic/132.png>
+      <td><img src=pic/133.png>
+      <td><img src=pic/134.png>
+      <td><img src=pic/135.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers flattened-->
+      <td rowspan=2><img src=pic/136.png>
+      <td><img src=pic/137.png>
+      <td><img src=pic/138.png>
+      <td><img src=pic/139.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers straight-->
+      <td><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ hitch­hiker's fingers-->
+      <td><img src=pic/140.png>
+      <!--Fingertip-Thumb's Interphalangeal Joint Opposition-->
+      <td><img src=pic/141.png>
+      <!--Fingertip-Thumb's Metacarpophalangeal Joint Opposition-->
+      <td><img src=pic/142.png>
+    <tr>
+      <th>Four Fingers (spread)
+      <!--Fingertip-Thumbtip Opposition w/ fingers rounded-->
+      <!--rowspan=2 from above-->
+      <td colspan=3><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ fingers flattened-->
+      <!--rowspan=2 from above-->
+      <td colspan=3><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ fingers straight-->
+      <td><small>cf.</small> 
+    <tr>
+      <th>One Finger, others extended (spread)
+      <!--Fingertip-Thumbtip Opposition w/ fingers rounded-->
+      <td><img src=pic/143.png>
+      <td><img src=pic/144.png>
+      <td><img src=pic/145.png>
+      <td><img src=pic/146.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers flattened-->
+      <td><img src=pic/147.png>
+      <td><img src=pic/148.png>
+      <td><img src=pic/149.png>
+      <td><img src=pic/150.png>
+      <!--Fingertip-Thumbtip Opposition w/ fingers straight-->
+      <td><small>cf.</small> 
+      <!--Fingertip-Thumbtip Opposition w/ hitch­hiker's fingers-->
+      <td><img src=pic/151.png>
+      <!--Fingertip-Thumb's Interphalangeal Joint Opposition-->
+      <td><img src=pic/152.png>
+      <!--Fingertip-Thumb's Metacarpophalangeal Joint Opposition-->
+      <td><img src=pic/153.png>
+      <!--Derivation Examples-->
+      <td><img src=pic/154.png>
+      <td><img src=pic/155.png>
+      <td><img src=pic/156.png>
+      <td><img src=pic/157.png>
+      <td><img src=pic/158.png>
+      <td><img src=pic/159.png>
+  </table>
+</figure>
+
+</body>
+</html>
